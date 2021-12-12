@@ -1,1 +1,1 @@
-# hoteles
+permalink: /src/index.js
