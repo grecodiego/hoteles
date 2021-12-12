@@ -1,0 +1,23 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+footer {
+  display: flex;
+  background-color: rgb(0, 213, 177);
+  height: 50px;
+  width: 100%;
+  color: white;
+  flex-direction: row;
+  align-content: center;
+  justify-content: center;
+}
+.texto-footer {
+  display: flex;
+  align-items: center;
+  flex-direction: center;
+
+  font-size: 14px;
+  text-align: center;
+}

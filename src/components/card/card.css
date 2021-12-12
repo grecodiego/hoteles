@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+.card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 300px;
+  height: 100%;
+  border: 3px solid #ececec;
+  margin: 10px;
+  background: rgba(255, 255, 255, 0.734);
+}
+.name {
+  display: flex;
+  padding: 10px 0 0 10px;
+  text-align: left;
+  font-size: 24px;
+}
+.description {
+  display: flex;
+  padding: 10px 0 0 10px;
+  text-align: left;
+  font-size: 15px;
+}
+.boxLocateAndRooms {
+  display: flex;
+  border-radius: 3px;
+  height: 30px;
+  box-sizing: content-box;
+  margin: 10px 0 0 10px;
+  text-align: left;
+  font-size: 15px;
+  align-items: center;
+}
+.boxText {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: #f4f4f4;
+  padding: 0 10px 0 10px;
+  border-radius: 0 4px 4px 0;
+}
+.boxIcon {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  background-color: #249bed;
+  padding: 0 0 0 10px;
+  border-radius: 4px 0 0 4px;
+}
+.price {
+  display: flex;
+  border-radius: 3px;
+  height: 30px;
+  box-sizing: content-box;
+  padding: 0 10px 0 10px;
+  text-align: left;
+  font-size: 15px;
+  align-items: center;
+  background-color: #249bed;
+  margin: 10px 0 15px 20px;
+}
+.svgCardLocate {
+  margin: 0 10px 0 0;
+}
+.card-button {
+  display: flex;
+  background-color: #34d5b1;
+  height: 40px;
+  width: 100%;
+  border: none;
+  color: white;
+  font-size: 14px;
+  font-weight: lighter;
+  justify-content: center;
+  align-items: center;
+}
+.whiteDolars {
+  color: white;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.greyDolars {
+  color: #57b5f2;
+  font-weight: 600;
+  letter-spacing: 2px;
+}
+.card-button:hover {
+  background-color: rgb(0, 213, 177);
+}
+.card-button:active {
+  background-color: rgb(0, 213, 177);
+  transform: scale(1.1);
+}
