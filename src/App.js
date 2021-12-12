@@ -1,8 +1,8 @@
 import './App.css'
 import { Header } from './components/header/header.js'
-import { Filter } from './components/filter/filter.jsx'
+import { Filter } from './components/filter/filter'
 import { HotelList } from './components/hotelList/hotelList.jsx'
-import { hotelsData } from './server/hotels//hotels.js'
+import { hotelsData } from './server/hotels/hotels.js'
 import { Footer } from './components/footer/footer.js'
 import { useState, useEffect } from 'react'
 import {
